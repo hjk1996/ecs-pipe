@@ -1,6 +1,7 @@
 version: 0.2
 
 env:
+  variables:
     AWS_ECR: 109412806537.dkr.ecr.ap-northeast-2.amazonaws.com
     IMAGE_REPO_NAME: ecs-pipe-repo
     CONTAINER_NAME: ecs-pipe-container

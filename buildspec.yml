@@ -31,4 +31,4 @@ phases:
 artifacts: 
   files: # 빌드후에 배포단계로 옮길 파일들.
     # 이미지 정보가 담겨있는 json 파일을 아티팩트로 옮겨줌
-    - image-definition.json
+    - imagedefinitions.json

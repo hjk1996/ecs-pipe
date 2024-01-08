@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Pre-build completed
       # ECR 로그인
-      - aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin $AWS_ECS
+      - aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin $AWS_ECR
   build: # 빌드 명령
     commands:
     # 도커 이미지 빌드, 빌드 넘버를 태그 값으로 사용
